@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Billy Bob",
+      "email": "billy@bob.com"
+    },
+    {
+      "id": 2,
+      "name": "Johnny Joe",
+      "email": "johnny@joe.com"
+    },
+    {
+      "name": "Willy Walterson",
+      "email": "willy@walterson.org",
+      "id": 3
+    }
+  ]
+}
