@@ -3,7 +3,8 @@ var webpack = require('webpack');
 
 module.exports = {
   entry: {
-    addressbook: __dirname + '/src/addressbook/index.jsx'
+    addressbook: __dirname + '/src/addressbook/index.jsx',
+    blog: __dirname + '/src/blog/index.cjsx'
   },
   devtool: 'cheap-module-source-map',
   output: {
@@ -16,7 +17,7 @@ module.exports = {
       __dirname,
       path.resolve('./node_modules')
     ],
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx', '.cjsx', '.coffee']
   },
   module: {
     loaders: [
@@ -27,6 +28,14 @@ module.exports = {
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.cjsx$/,
+        loaders: ['coffee', 'cjsx']
+      },
+      {
+        test: /\.coffee$/,
+        loader: 'coffee'
       }
     ]
   }
