@@ -32,7 +32,7 @@ module.exports = class Comments extends DeliveryService
       <hr/>
       <CommentForm
         store={@commentStore}
-        model={{}}
+        model={{message: '', author: ''}}
         parentResourceId={@props.postId}
         parentResourcesKey='posts'
         onSuccess={@handleSuccess} />
