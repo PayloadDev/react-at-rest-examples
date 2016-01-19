@@ -1,8 +1,8 @@
 React     = require 'react'
-{PubSub, Store}  = require 'react-at-rest'
+{DeliveryService, Store}  = require 'react-at-rest'
 Comments  = require './comments'
 
-module.exports = class BlogPosts extends PubSub
+module.exports = class BlogPosts extends DeliveryService
 
   @displayName = 'BlogPosts'
 

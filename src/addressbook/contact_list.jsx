@@ -1,11 +1,11 @@
-import {PubSub, Store} from 'react-at-rest'
+import {DeliveryService, Store} from 'react-at-rest'
 import React from 'react'
 import ContactListItem from './contact_list_item'
 import ContactForm from './contact_form'
 
 
-// PubSub provides a workflow for retrieving resources from the API
-class ContactList extends PubSub {
+// DeliveryService provides a workflow for retrieving resources from the API
+class ContactList extends DeliveryService {
 
   constructor(props) {
     super(props)
