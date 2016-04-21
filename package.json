@@ -12,9 +12,10 @@
   "dependencies": {
     "json-server": "^0.8.6",
     "lodash": "^3.10.1",
-    "react": "^0.14.0",
-    "react-at-rest": "^1.0.0-beta3",
-    "react-dom": "^0.14.0"
+    "object-assign": "^4.0.1",
+    "react": "^15.0.1",
+    "react-at-rest": "^1.2.0",
+    "react-dom": "^15.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",
@@ -23,7 +24,7 @@
     "babel-preset-react": "^6.3.13",
     "cjsx-loader": "2.1.0",
     "coffee-loader": "0.7.2",
-    "coffee-react-transform": "3.2.0",
+    "coffee-react-transform": "4.0.0",
     "coffee-script": "1.10.0",
     "webpack": "^1.12.11"
   }

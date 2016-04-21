@@ -1,3 +1,4 @@
+Object.assign = require 'object-assign'
 _ = require 'lodash'
 React = require 'react'
 ReactDOM = require 'react-dom'
