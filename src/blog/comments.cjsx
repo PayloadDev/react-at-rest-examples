@@ -16,7 +16,7 @@ module.exports = class Comments extends DeliveryService
 
 
   bindResources: ->
-    @subscribeAll @commentStore, null,
+    @subscribeAll @commentStore,
       parentResourcesKey: 'posts'
       parentResourceId:   @props.postId
 
